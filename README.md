@@ -1,7 +1,9 @@
-## Flask project - party mode for music streaming
+## Flask project - time logging
 
 [![Build Status][travis-image]][travis-url]
 
+### Overview
+This allows users to sign in/out and submit time sheets via email
 
 ### Note
 This project uses...
