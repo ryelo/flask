@@ -1,13 +1,21 @@
 doctype html
 html
   head
-    title= title
+    title Flask
     meta(charset="utf-8")
     meta(name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1")
+    link(href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet")
+    script(defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js")
     block head_end
-	
+
   body
-    block content
-		
+    .topbar
+      block topbar
+    .main
+      .center-wrapper
+        block content
+    footer
+      block footer
+
     script(type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js")
     block body_end

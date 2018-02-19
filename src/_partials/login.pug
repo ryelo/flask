@@ -1,0 +1,14 @@
+.page-login
+  .card
+    h1.text-center Login
+    form(id='login')
+      .username
+        label(for='username') Username
+        input(type='text', name='username', id='username')
+      .password
+        label(for='password') Password
+        input(type='password', name='username', id='password')
+      button.primary(type='submit', form='signin', value='Submit', style='primary')
+        span Submit
+    a Forgot password?
+  a.create-account Create an account

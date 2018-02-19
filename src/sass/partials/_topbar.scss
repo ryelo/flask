@@ -1,0 +1,11 @@
+.topbar{
+  margin-top: 10px;
+  .logo {
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    background: -webkit-linear-gradient(45deg, #6B26D1, #4B65D9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+  }
+}

@@ -1,10 +1,18 @@
 extends _layouts/home
 
 block head_end
-	link(rel="stylesheet" href="/css/style.css")
+  link(rel="stylesheet" href="/css/style.css")
+  link(rel="icon" type="image/x-icon" href="/favicon.png")
+
+block topbar
+  include _partials/topbar
 
 block content
-	include _partials/splash
+  //include _partials/login
+  include _partials/create
+
+block footer
+  include _partials/footer
 
 block body_end
-	script(type="text/javascript" src="/js/script.js")
+  script(type="text/javascript" src="/js/script.js")

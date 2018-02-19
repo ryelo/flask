@@ -1,0 +1,22 @@
+.page-create
+  .icon-inline
+    a
+      i.fas.fa-angle-left
+      span Back to login
+  .card
+    h1.text-center Create an account
+    form(id='create')
+      .fname
+        label(for='fname') First Name
+        input(type='text', name='fname', id='fname')
+      .lname
+        label(for='lname') Last Name
+        input(type='text', name='lname', id='lname')
+      .username
+        label(for='username') Username
+        input(type='text', name='username', id='username')
+      .password
+        label(for='password') Password
+        input(type='password', name='username', id='password')
+      button.primary(type='submit', form='signin', value='Submit', style='primary')
+        span Submit

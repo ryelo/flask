@@ -1,0 +1,41 @@
+form#login {
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: 1fr;
+  grid-template-areas: 'username'
+                        'password'
+                        'submit';
+  .username { grid-area: username; }
+  .password { grid-area: password; }
+  button[type='submit'] { grid-area: submit; }
+}
+
+form#create {
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: 1fr;
+  grid-template-areas: 'fname'
+                        'lname'
+                        'username'
+                        'password'
+                        'submit';
+  .fname { grid-area: fname; }
+  .lname { grid-area: lname; }
+  .username { grid-area: username; }
+  .password { grid-area: password; }
+  button[type='submit'] { grid-area: submit; }
+}
+
+form {
+  > * > * { display: block; }
+  input {
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgba(255,255,255,.2);
+    border: 1px solid rgba(255,255,255,.4);
+    padding: 5px;
+    color: #fff;
+    font-size: 12px;
+    &:active { border: 1px solid rgba(255,255,255,.6) }
+  }
+}

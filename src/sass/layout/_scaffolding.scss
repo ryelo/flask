@@ -1,0 +1,12 @@
+body {
+  display: grid;
+  //grid-gap: 15px;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas: 'topbar'
+                        'main'
+                        'footer';
+  .topbar { grid-area: topbar; }
+  .main { grid-area: main; }
+  footer { grid-area: footer; }
+}

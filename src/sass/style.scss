@@ -5,8 +5,19 @@
 @import "includes/colors";
 
 
-// Page-templates
-@import "page-templates/main";
+// Layout
+@import "layout/main";
+@import "layout/scaffolding";
+
+
+// Partials
+@import "partials/create";
+@import "partials/login";
+@import "partials/topbar";
+@import "partials/footer";
+
 
 // Components
 @import "components/card";
+@import "components/form";
+@import "components/button";
